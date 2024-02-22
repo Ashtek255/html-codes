@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+}
+
+.li .a {
+    display:block;
+    color: rgb(170, 156, 156);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li {
+    display: inline;
+    float: right;
+}
+/*short info about me*/
+.myINFO{
+    height: 340px;
+    width: 600px;
+    background-color:rgb(46, 44, 44);
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+/*my picture*/
+img {
+    height: 340px;
+    width: 500px;
+}
+
+/*social media icons*/
+.icon{
+     height: 50px;
+     width: 50px;
+}
+
+table{
+    padding: 60px; 
+    border-spacing: 60px;
+}
+
+.iconCENTER{
+    text-align: right;
+    color: white;
+}
+
+hr{
+    background-color: white ;
+}
+
+.info{
+    font-family: verdana;
+}
+
+.iconsLI .icon {
+    display:block;
+    text-align: right;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.iconUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.iconsLI {
+    display: inline;
+    float: right;
+}
